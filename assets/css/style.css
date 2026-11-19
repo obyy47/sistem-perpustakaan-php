@@ -1,0 +1,145 @@
+/* Reset Basic */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container Tengah untuk Semua Halaman */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 15px auto 20px auto;
+}
+
+/* Typography & Link */
+h2 {
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Styling Form & Input (Posisi Tengah, Isi Rata Kiri) */
+form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 450px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px auto 20px auto;
+    text-align: left;
+}
+
+form label {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+form button {
+    background-color: #2ecc71;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #27ae60;
+}
+
+/* Styling Tabel Data (Hilangkan Border Hitam Luar & Dalam Bawaan HTML) */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    background: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px auto 0 auto;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+table th {
+    background-color: #34495e;
+    color: #ffffff;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Styling Menu / List Dashboard Admin (Posisi Tengah) */
+ul {
+    list-style: none;
+    background: #ffffff;
+    padding: 20px 25px;
+    border-radius: 8px;
+    max-width: 320px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    text-align: left;
+}
+
+ul li {
+    margin-bottom: 12px;
+}
+
+ul li:last-child {
+    margin-bottom: 0;
+}
